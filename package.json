@@ -6,7 +6,9 @@
   "author": "Noah Wimmer",
   "license": "ISC"
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node ./bin/www",
+
+    "test": "make test"
   },
   "repository": {
     "type": "git",
